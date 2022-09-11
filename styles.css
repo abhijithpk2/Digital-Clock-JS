@@ -1,17 +1,37 @@
 body{
-    background-color:rgba(177, 177, 177, 0.7);
+    background-color:#00284d;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
-    color: black;
+    color: white;
     font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
     font-size: 2rem;
     transform: translate(-50%,-50%);
-    border: 5px solid brown;
+    border: 5px solid #3551FD ;
     padding: 30px;
     border-radius: 10px;
-
+}
+    
+#session{
+    background-color: rgba(244, 244, 255, 0.459);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+.container:hover{
+    background:#3551FD ;
+    box-shadow: 0 0 30px #3551FD ;
+}
+.date{
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 3px;
 }
